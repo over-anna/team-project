@@ -16,7 +16,7 @@ fetch("./assets/data/video-data.json")
     videoData = data;
     console.log('video Data', videoData)
 
-    renderObjectResults(videoData.videos);
+    renderObjectResults(shortcuts.shortcuts);
 
   });
 
