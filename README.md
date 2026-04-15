@@ -33,24 +33,32 @@ Each team member contributed one unique shortcut to the dataset.
 - Nu Validator : <a href="https://validator.nu/?doc=https%3A%2F%2Fover-anna.github.io%2Fteam-project%2F" target="_blank">CLICK ME</a>
 
 ## 📝 Code Sample
+
 Here's the fetch
 
-- scripts
-```scripts/search.js
-fetch("./assets/data/video-data.json")
-  .then(response => {
-    if (!response.ok) {
-      throw new Error("Failed to load video data");
-    }
-    return response.json();
+### search.js
+### It gets a text input from the page (searchBox). If the box is empty, it shows all shortcuts. It will filter the list of shortcuts to those that much, then displays the filters results. 
 
-  })
-  .then(data => {
+const searchBox = document.getElementById("searchBox");
 
-    videoData = data;
-    console.log('video Data', videoData)
+function handleShortcutSearch() {
+  const query = searchBox.value.trim().toLowerCase();
 
-    renderObjectResults(shortcuts.shortcuts);
+  if (!query) {
+    renderShortcuts(shortcutData.shortcuts);
+    return;
+  }
 
+  const results = shortcutData.shortcuts.filter(item => {
+    return (
+      item.shortcut.toLowerCase().includes(query) ||
+      item.description.toLowerCase().includes(query) ||
+      item.author.toLowerCase().includes(query)
+    );
   });
+
+  renderShortcuts(results);
+}
+
+searchBox.addEventListener("input", handleShortcutSearch);
 
