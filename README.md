@@ -33,11 +33,8 @@ Each team member contributed one unique shortcut to the dataset.
 - Nu Validator : <a href="https://validator.nu/?doc=https%3A%2F%2Fover-anna.github.io%2Fteam-project%2F" target="_blank">CLICK ME</a>
 
 ## 📝 Code Sample
-
-Here's the fetch
-
-### search.js
-### It gets a text input from the page (searchBox). If the box is empty, it shows all shortcuts. It will filter the list of shortcuts to those that much, then displays the filters results. 
+<p>search.js</p>
+<p>It gets a text input from the page (searchBox). If the box is empty, it shows all shortcuts. It will filter the list of shortcuts to those that much, then displays the filters results. </p>
 ```
 const searchBox = document.getElementById("searchBox");
 
