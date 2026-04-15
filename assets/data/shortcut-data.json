@@ -1,0 +1,16 @@
+{
+  "shortcuts": [
+    {
+      "shortcut": "Alt + Z",
+      "description": "Wrap around current line of code",
+      "author": "Poppy Dalton"
+    },
+
+    {
+      "shortcut": "Ctrl + S",
+      "description": "Save current file",
+      "author": "Anna Patillo"
+    }
+    
+  ]
+}
