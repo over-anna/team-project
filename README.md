@@ -35,6 +35,7 @@ Each team member contributed one unique shortcut to the dataset.
 ## 📝 Code Sample
 <p>search.js</p>
 <p>It gets a text input from the page (searchBox). If the box is empty, it shows all shortcuts. It will filter the list of shortcuts to those that much, then displays the filters results. </p>
+
 ```
 const searchBox = document.getElementById("searchBox");
 
