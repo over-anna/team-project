@@ -30,14 +30,14 @@ Each team member contributed one unique shortcut to the dataset.
 
 
 ## ✅ App Validity
-- Nu Validator : 
+- Nu Validator : https://validator.nu/?doc=https%3A%2F%2Fover-anna.github.io%2Fteam-project%2F
 
 ## 📝 Code Sample
 Here's how the fetch
 
 - scripts
 ```scripts/search.js
-etch("./assets/data/video-data.json")
+fetch("./assets/data/video-data.json")
   .then(response => {
     if (!response.ok) {
       throw new Error("Failed to load video data");
