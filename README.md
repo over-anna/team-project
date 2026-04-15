@@ -38,7 +38,7 @@ Here's the fetch
 
 ### search.js
 ### It gets a text input from the page (searchBox). If the box is empty, it shows all shortcuts. It will filter the list of shortcuts to those that much, then displays the filters results. 
-
+```
 const searchBox = document.getElementById("searchBox");
 
 function handleShortcutSearch() {
@@ -61,4 +61,4 @@ function handleShortcutSearch() {
 }
 
 searchBox.addEventListener("input", handleShortcutSearch);
-
+```
