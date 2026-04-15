@@ -66,6 +66,11 @@
       "author": "Nang Khin La Pyae"
     },
     {
+     "shortcut": "Ctrl + /",
+     "description": "Comment Code",
+     "author": "Shion Kishaba"
+   },
+    {
       "shortcut": "Windows + Shift + F",
       "description": "Take a screenshot",
       "author": "Maddox Dorning"
@@ -73,7 +78,7 @@
     {
       "shortcut": "Ctrl + Shift + Tab",
       "description": "Backward on windows",
-      "author": "Griffen Turner"
+      "author": "Mitchell Chafee"
     },
     {
       "shortcut": "Windows + .",
@@ -99,6 +104,11 @@
       "shortcut": "Shift + Option + ",
       "description": "Create getters and setters",
       "author": "Eric Staggs"
+    },
+    {
+      "shortcut": "TBD",
+      "description": "TBD",
+      "author": "Griffen Turner"
     }
   ]
 }
