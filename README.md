@@ -30,7 +30,7 @@ Each team member contributed one unique shortcut to the dataset.
 
 
 ## ✅ App Validity
-- Nu Validator : https://validator.nu/?doc=https%3A%2F%2Fover-anna.github.io%2Fteam-project%2F
+- Nu Validator : <a href="https://validator.nu/?doc=https%3A%2F%2Fover-anna.github.io%2Fteam-project%2F" target="_blank">CLICK ME</a>
 
 ## 📝 Code Sample
 Here's the fetch
