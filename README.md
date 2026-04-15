@@ -33,7 +33,7 @@ Each team member contributed one unique shortcut to the dataset.
 - Nu Validator : https://validator.nu/?doc=https%3A%2F%2Fover-anna.github.io%2Fteam-project%2F
 
 ## 📝 Code Sample
-Here's how the fetch
+Here's the fetch
 
 - scripts
 ```scripts/search.js
