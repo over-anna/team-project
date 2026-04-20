@@ -106,7 +106,7 @@
       "author": "Sean Clary"
     },
     {
-      "shortcut": "Shift + Option + S",
+      "shortcut": "Shift + Option + S, then R",
       "description": "Create getters and setters",
       "author": "Eric Staggs"
     },
